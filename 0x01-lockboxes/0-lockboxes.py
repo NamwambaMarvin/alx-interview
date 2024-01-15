@@ -3,6 +3,7 @@
  Lock boxes problem AFRICA Problem
 """
 
+
 def canUnlockAll(boxes):
     """
     Lock boxes plobem solved
