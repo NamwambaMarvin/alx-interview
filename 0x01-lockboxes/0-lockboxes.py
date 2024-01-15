@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 """
  Lock boxes problem AFRICA Problem
 """
@@ -15,8 +15,8 @@ def canUnloakAll(boxes):
         checked = False
         for idx in range(len(boxes)):
             checked = k in boxes[idx] and k != idx
-                if checked:
-                    break
+            if checked:
+                break
         if checked is False:
             return checked
     return True
